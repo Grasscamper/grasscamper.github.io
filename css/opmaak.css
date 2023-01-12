@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, sans-serif, Arial;
+}
+
+.dark{
+    background-color: #1e2029;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#1181b2;
+    margin-top: 2em;
+}
+
+section {
+    margin: 0 25% 0% 25%;
+}
+
+.fotoIlya{
+    float: right;
+    width: 30%;
+}
+
+header {
+    margin-top: 5%;
+    font-size: 2em;
+    text-align: center;
+    color:#1181b2;
+}
+
+a:link {
+    color: #0e6083
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
