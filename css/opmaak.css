@@ -39,3 +39,29 @@ a:visited {
 a:hover {
     color: orange;
 }
+
+/* css maar dab voor telefoon */
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-size: 1em;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em;
+    }
+
+    section {
+        margin: 0 10% 0% 10%;
+    }
+
+    .fotoIlya {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+}
