@@ -41,3 +41,10 @@
 	background: #26ace2;
 	color: white;
 }
+
+/* Mobile-specific CSS */
+@media only screen and (max-width: 600px) {
+    a, button {
+		display: none;
+	}
+}
