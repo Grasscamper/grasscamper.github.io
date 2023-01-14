@@ -46,31 +46,31 @@
 	display: none;
 }
 /* Mobile-specific CSS */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
     .menu a{
 		display: none;
 	}																					
 
 	#hamburger{
 		display: block;
-		font-size: 4em;
+		font-size: 800%;
 		padding: 0px 10px 12px 10px;
 		float: left;
 	}
 
 	.menu button{
-		font-size: 2em;
-		padding: 25px 20px;
+		font-size: 400%;
+		padding: 45.5px 20px;
 	}
 
 	/* css voor als het menu moet worden laten zien */
 	.show-menu a {
 		display: block;
-		font-size: 3em;
+		font-size: 600%;
 		text-align: center;
-		width: 100%;
-		padding: 4%;
-		margin: 0 0 5% 0;
+		width: 80%;
+		padding: 5%;
+		margin: 0% 5% 5% 5%;
 		background-color: #26ace2;
 		color: #1181b2;
 	}

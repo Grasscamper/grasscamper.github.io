@@ -29,5 +29,5 @@ if (hamburgerMenu.textContent === "≡") {
      hamburgerMenu.textContent = "✕";
   } else {
      hamburgerMenu.textContent = "≡";
-  }
+    }
 });
