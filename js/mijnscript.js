@@ -1,3 +1,4 @@
+// code voor de donkere modus
 function darkmodeFunction() {
     var element = document.body;
   
@@ -16,4 +17,17 @@ function darkmodeFunction() {
   if (localStorage.getItem("darkmode") === "enabled") {
     document.body.classList.add("dark");
   }
-  
+
+// code voor het mobiele menu.
+let hamburgerMenu = document.getElementById("hamburger");
+let menu = document.querySelector(".menu");
+
+hamburgerMenu.addEventListener("click", function() {
+    menu.classList.toggle("show-menu");
+
+if (hamburgerMenu.textContent === "≡") {
+     hamburgerMenu.textContent = "✕";
+  } else {
+     hamburgerMenu.textContent = "≡";
+  }
+});
