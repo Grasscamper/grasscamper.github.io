@@ -5,13 +5,14 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/opmaak.css">
 		<link rel="stylesheet" href="css/menu.css">
+		<link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
     </head>
     <body>
 		<nav class="menu">
-			<button onclick="darkmodeFunction()">Toggle dark mode</button>
+			<button onclick="darkmodeFunction()">Donker/licht uiterlijk</button>
 			<button id="hamburger">≡</button>
             <a href="index.html">Home</a>
-			<a href="cadeaus.html">Cadeaus</a>
+			<a href="info.html">Verdere informatie</a>
             <script src="js/mijnscript.js"></script>
 			<script src="js/timer.js"></script>
 		</nav>
@@ -19,9 +20,13 @@
 			<h1>Welkom, je bent uitgenodigd op mijn verjaardag.</h1>
 		</header>
 		<section>
-			<h1>Countdown Timer</h1>
-			<p>Countdown to May 9th, 2023 at 4:00 PM Amsterdam time:</p>
-			<div id="countdown"></div>
+			<div id="aftellen">
+				<h2>Aftellen tot het feest!</h2>
+				<div id="countdown"></div>
+			</div>
+			<p class="infolink">
+				<a href="info.html" class="infolink">Verdere informatie</a>
+			</p>
 		 </section>
     </body>
 </html>

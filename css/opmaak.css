@@ -16,11 +16,6 @@ section {
     margin: 0% 25%;
 }
 
-.fotoIlya{
-    float: right;
-    width: 30%;
-}
-
 header {
     margin-top: 5%;
     font-size: 2em;
@@ -29,7 +24,7 @@ header {
 }
 
 a:link {
-    color: #0e6083
+    color: #1181b2;
 }
 
 a:visited {
@@ -38,6 +33,24 @@ a:visited {
 
 a:hover {
     color: orange;
+}
+
+/* css voor de aftelklok */
+#aftellen {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#countdown {
+    font-family: 'DS-Digital', Verdana, sans-serif, Arial;
+    font-size: 2em;
+}
+
+/* css voor het uiterlijk van de "Verdere informatie" link */
+.infolink {
+    text-align: center;
+    font-size: 2em;
 }
 
 /* css maar dan voor telefoon */
