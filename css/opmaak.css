@@ -36,21 +36,17 @@ a:hover {
 }
 
 /* css voor de aftelklok */
-#aftellen {
-    text-align: center;
-    font-size: 2em;
-
-}
 
 #countdown {
+    text-align: center;
+    font-size: 5em;
     font-family: 'DS-Digital', Verdana, sans-serif, Arial;
-    font-size: 2em;
 }
 
 /* css voor het uiterlijk van de "Verdere informatie" link */
 .infolink {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* css maar dan voor telefoon */
