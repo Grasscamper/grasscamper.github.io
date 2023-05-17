@@ -7,15 +7,15 @@ function darkmodeFunction() {
   
     // Sla de huidige staat van de dark-klasse op in localStorage
     if (element.classList.contains("dark")) {
-      localStorage.setItem("darkmode", "disabled");
-    } else {
       localStorage.setItem("darkmode", "enabled");
+    } else {
+      localStorage.setItem("darkmode", "disabled");
     }
   }
   
   // Controleer of de dark-klasse is opgeslagen in localStorage en, zo ja, pas deze toe
   if (localStorage.getItem("darkmode") === "disabled") {
-    document.body.classList.add("dark");
+    document.body.classList.remove("dark");
   }
 
 // code voor het mobiele menu.
