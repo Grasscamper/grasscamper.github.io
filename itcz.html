@@ -8,21 +8,23 @@
 		<link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+		<script src="js/mijnscript.js"></script>
     </head>
     <body class="dark"><!-- Credits naar Gerardo Japius van Dorenham voor het aanraden van de standaard darkmode en andere dingen.-->
 		<nav class="menu">
 			<button onclick="darkmodeFunction()">Donker/licht uiterlijk</button>
 			<button id="hamburger">≡</button>
             <a href="geoanimaties.html">Home</a>
-            <script src="js/mijnscript.js"></script>
 		</nav>
 		<header>
 			<h1>ITCZ</h1>
 		</header>
 		<section>
-            <object>
-                <param name="movie" value="flash/swf/ITCZ.swf">
-            </object>
+			<div class="container">
+            	<object style="display: block; margin: auto;">
+					<param name="movie" value="flash/swf/ITCZ.swf">
+				</object>
+			</div>			  
 		 </section>
     </body>
 </html>
