@@ -35,7 +35,8 @@ a:hover {
     color: orange;
 }
 
-button {
+button.button{
+    font-family: Verdana, sans-serif, Arial;
     border: none;
     border-radius: 10px;
     background-color: #1181b2;
@@ -43,11 +44,11 @@ button {
     padding: 10px 20px;
     margin: 5px 0px;
     cursor: pointer;
-  }
+}
   
-  button:hover {
+button.button:hover{
     background-color: orange;
-  }
+}
 
 /* afbeelding opmaak */
 
