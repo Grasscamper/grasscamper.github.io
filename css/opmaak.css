@@ -34,6 +34,21 @@ a:visited {
 a:hover {
     color: orange;
 }
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #1181b2;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+
 /* afbeelding opmaak */
 
 /* css maar dan voor telefoon */
