@@ -37,6 +37,7 @@ a:hover {
 
 button.button{
     font-family: Verdana, sans-serif, Arial;
+    font-size: 1em;
     border: none;
     border-radius: 10px;
     background-color: #1181b2;
